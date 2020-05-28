@@ -1,0 +1,109 @@
+body {
+    background-color:#000;
+    background-image: url(https://skyandtelescope.org/wp-content/uploads/Bob-Frank-R-Leporis.jpg);
+    background-size: cover;
+}
+
+
+
+
+h2 a{
+    color: #000
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    border-top-width: 1px;
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    box-shadow: none;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+}
+.card:hover {
+    filter: grayscale(0%);
+    filter: contrast(120%);
+}
+
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background-size: cover;
+    height: 300px;
+    background-position: 50% 50%;
+}
+
+.card.hovercard .symbol {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .symbol img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(58, 52, 40, 0.8);
+    background-color:rgba(255,255,255,0.5);
+
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+    color:#CCC;
+}
+
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.card.hovercard .bottom .btn {
+    background-color: #3A3428;
+    border: solid 1px #000;
+}
+
+
+.system-info {
+
+}
+
+
+.system-description {
+    height: 100%;
+    width: 100%;
+    color: #7C797A;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.system-description h1 {
+
+    padding: 8px 16px;
+}
+
+.system-description .details {
+    margin-left: 2rem;
+    padding: 8px 16px;   
+
+}
+
+
+.star {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
